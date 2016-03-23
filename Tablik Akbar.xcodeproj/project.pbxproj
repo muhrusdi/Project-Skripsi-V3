@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFF76DAF1CA2459C00C8DF70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF76DAE1CA2459C00C8DF70 /* AppDelegate.swift */; };
+		FFF76DB11CA2459C00C8DF70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF76DB01CA2459C00C8DF70 /* ViewController.swift */; };
+		FFF76DB41CA2459D00C8DF70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF76DB21CA2459D00C8DF70 /* Main.storyboard */; };
+		FFF76DB61CA2459D00C8DF70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF76DB51CA2459D00C8DF70 /* Assets.xcassets */; };
+		FFF76DB91CA2459D00C8DF70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF76DB71CA2459D00C8DF70 /* LaunchScreen.storyboard */; };
+		FFF76DC41CA2459E00C8DF70 /* Tablik_AkbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF76DC31CA2459E00C8DF70 /* Tablik_AkbarTests.swift */; };
+		FFF76DCF1CA2459E00C8DF70 /* Tablik_AkbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF76DCE1CA2459E00C8DF70 /* Tablik_AkbarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFF76DC01CA2459E00C8DF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF76DA31CA2459C00C8DF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF76DAA1CA2459C00C8DF70;
+			remoteInfo = "Tablik Akbar";
+		};
+		FFF76DCB1CA2459E00C8DF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF76DA31CA2459C00C8DF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF76DAA1CA2459C00C8DF70;
+			remoteInfo = "Tablik Akbar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFF76DAB1CA2459C00C8DF70 /* Tablik Akbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tablik Akbar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF76DAE1CA2459C00C8DF70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFF76DB01CA2459C00C8DF70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFF76DB31CA2459D00C8DF70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFF76DB51CA2459D00C8DF70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFF76DB81CA2459D00C8DF70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFF76DBA1CA2459D00C8DF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF76DBF1CA2459E00C8DF70 /* Tablik AkbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tablik AkbarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF76DC31CA2459E00C8DF70 /* Tablik_AkbarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tablik_AkbarTests.swift; sourceTree = "<group>"; };
+		FFF76DC51CA2459E00C8DF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF76DCA1CA2459E00C8DF70 /* Tablik AkbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tablik AkbarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF76DCE1CA2459E00C8DF70 /* Tablik_AkbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tablik_AkbarUITests.swift; sourceTree = "<group>"; };
+		FFF76DD01CA2459E00C8DF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFF76DA81CA2459C00C8DF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF76DBC1CA2459E00C8DF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF76DC71CA2459E00C8DF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFF76DA21CA2459C00C8DF70 = {
+			isa = PBXGroup;
+			children = (
+				FFF76DAD1CA2459C00C8DF70 /* Tablik Akbar */,
+				FFF76DC21CA2459E00C8DF70 /* Tablik AkbarTests */,
+				FFF76DCD1CA2459E00C8DF70 /* Tablik AkbarUITests */,
+				FFF76DAC1CA2459C00C8DF70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF76DAC1CA2459C00C8DF70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF76DAB1CA2459C00C8DF70 /* Tablik Akbar.app */,
+				FFF76DBF1CA2459E00C8DF70 /* Tablik AkbarTests.xctest */,
+				FFF76DCA1CA2459E00C8DF70 /* Tablik AkbarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF76DAD1CA2459C00C8DF70 /* Tablik Akbar */ = {
+			isa = PBXGroup;
+			children = (
+				FFF76DAE1CA2459C00C8DF70 /* AppDelegate.swift */,
+				FFF76DB01CA2459C00C8DF70 /* ViewController.swift */,
+				FFF76DB21CA2459D00C8DF70 /* Main.storyboard */,
+				FFF76DB51CA2459D00C8DF70 /* Assets.xcassets */,
+				FFF76DB71CA2459D00C8DF70 /* LaunchScreen.storyboard */,
+				FFF76DBA1CA2459D00C8DF70 /* Info.plist */,
+			);
+			path = "Tablik Akbar";
+			sourceTree = "<group>";
+		};
+		FFF76DC21CA2459E00C8DF70 /* Tablik AkbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF76DC31CA2459E00C8DF70 /* Tablik_AkbarTests.swift */,
+				FFF76DC51CA2459E00C8DF70 /* Info.plist */,
+			);
+			path = "Tablik AkbarTests";
+			sourceTree = "<group>";
+		};
+		FFF76DCD1CA2459E00C8DF70 /* Tablik AkbarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF76DCE1CA2459E00C8DF70 /* Tablik_AkbarUITests.swift */,
+				FFF76DD01CA2459E00C8DF70 /* Info.plist */,
+			);
+			path = "Tablik AkbarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFF76DAA1CA2459C00C8DF70 /* Tablik Akbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF76DD31CA2459E00C8DF70 /* Build configuration list for PBXNativeTarget "Tablik Akbar" */;
+			buildPhases = (
+				FFF76DA71CA2459C00C8DF70 /* Sources */,
+				FFF76DA81CA2459C00C8DF70 /* Frameworks */,
+				FFF76DA91CA2459C00C8DF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tablik Akbar";
+			productName = "Tablik Akbar";
+			productReference = FFF76DAB1CA2459C00C8DF70 /* Tablik Akbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFF76DBE1CA2459E00C8DF70 /* Tablik AkbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF76DD61CA2459E00C8DF70 /* Build configuration list for PBXNativeTarget "Tablik AkbarTests" */;
+			buildPhases = (
+				FFF76DBB1CA2459E00C8DF70 /* Sources */,
+				FFF76DBC1CA2459E00C8DF70 /* Frameworks */,
+				FFF76DBD1CA2459E00C8DF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF76DC11CA2459E00C8DF70 /* PBXTargetDependency */,
+			);
+			name = "Tablik AkbarTests";
+			productName = "Tablik AkbarTests";
+			productReference = FFF76DBF1CA2459E00C8DF70 /* Tablik AkbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFF76DC91CA2459E00C8DF70 /* Tablik AkbarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF76DD91CA2459E00C8DF70 /* Build configuration list for PBXNativeTarget "Tablik AkbarUITests" */;
+			buildPhases = (
+				FFF76DC61CA2459E00C8DF70 /* Sources */,
+				FFF76DC71CA2459E00C8DF70 /* Frameworks */,
+				FFF76DC81CA2459E00C8DF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF76DCC1CA2459E00C8DF70 /* PBXTargetDependency */,
+			);
+			name = "Tablik AkbarUITests";
+			productName = "Tablik AkbarUITests";
+			productReference = FFF76DCA1CA2459E00C8DF70 /* Tablik AkbarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF76DA31CA2459C00C8DF70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MRCode;
+				TargetAttributes = {
+					FFF76DAA1CA2459C00C8DF70 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FFF76DBE1CA2459E00C8DF70 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FFF76DAA1CA2459C00C8DF70;
+					};
+					FFF76DC91CA2459E00C8DF70 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FFF76DAA1CA2459C00C8DF70;
+					};
+				};
+			};
+			buildConfigurationList = FFF76DA61CA2459C00C8DF70 /* Build configuration list for PBXProject "Tablik Akbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFF76DA21CA2459C00C8DF70;
+			productRefGroup = FFF76DAC1CA2459C00C8DF70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFF76DAA1CA2459C00C8DF70 /* Tablik Akbar */,
+				FFF76DBE1CA2459E00C8DF70 /* Tablik AkbarTests */,
+				FFF76DC91CA2459E00C8DF70 /* Tablik AkbarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFF76DA91CA2459C00C8DF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF76DB91CA2459D00C8DF70 /* LaunchScreen.storyboard in Resources */,
+				FFF76DB61CA2459D00C8DF70 /* Assets.xcassets in Resources */,
+				FFF76DB41CA2459D00C8DF70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF76DBD1CA2459E00C8DF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF76DC81CA2459E00C8DF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFF76DA71CA2459C00C8DF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF76DB11CA2459C00C8DF70 /* ViewController.swift in Sources */,
+				FFF76DAF1CA2459C00C8DF70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF76DBB1CA2459E00C8DF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF76DC41CA2459E00C8DF70 /* Tablik_AkbarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF76DC61CA2459E00C8DF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF76DCF1CA2459E00C8DF70 /* Tablik_AkbarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFF76DC11CA2459E00C8DF70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF76DAA1CA2459C00C8DF70 /* Tablik Akbar */;
+			targetProxy = FFF76DC01CA2459E00C8DF70 /* PBXContainerItemProxy */;
+		};
+		FFF76DCC1CA2459E00C8DF70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF76DAA1CA2459C00C8DF70 /* Tablik Akbar */;
+			targetProxy = FFF76DCB1CA2459E00C8DF70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFF76DB21CA2459D00C8DF70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF76DB31CA2459D00C8DF70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFF76DB71CA2459D00C8DF70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF76DB81CA2459D00C8DF70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFF76DD11CA2459E00C8DF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFF76DD21CA2459E00C8DF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFF76DD41CA2459E00C8DF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tablik Akbar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrcode.Tablik-Akbar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFF76DD51CA2459E00C8DF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tablik Akbar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrcode.Tablik-Akbar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFF76DD71CA2459E00C8DF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tablik AkbarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrcode.Tablik-AkbarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tablik Akbar.app/Tablik Akbar";
+			};
+			name = Debug;
+		};
+		FFF76DD81CA2459E00C8DF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tablik AkbarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrcode.Tablik-AkbarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tablik Akbar.app/Tablik Akbar";
+			};
+			name = Release;
+		};
+		FFF76DDA1CA2459E00C8DF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tablik AkbarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrcode.Tablik-AkbarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tablik Akbar";
+			};
+			name = Debug;
+		};
+		FFF76DDB1CA2459E00C8DF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tablik AkbarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrcode.Tablik-AkbarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tablik Akbar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFF76DA61CA2459C00C8DF70 /* Build configuration list for PBXProject "Tablik Akbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF76DD11CA2459E00C8DF70 /* Debug */,
+				FFF76DD21CA2459E00C8DF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF76DD31CA2459E00C8DF70 /* Build configuration list for PBXNativeTarget "Tablik Akbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF76DD41CA2459E00C8DF70 /* Debug */,
+				FFF76DD51CA2459E00C8DF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFF76DD61CA2459E00C8DF70 /* Build configuration list for PBXNativeTarget "Tablik AkbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF76DD71CA2459E00C8DF70 /* Debug */,
+				FFF76DD81CA2459E00C8DF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFF76DD91CA2459E00C8DF70 /* Build configuration list for PBXNativeTarget "Tablik AkbarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF76DDA1CA2459E00C8DF70 /* Debug */,
+				FFF76DDB1CA2459E00C8DF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFF76DA31CA2459C00C8DF70 /* Project object */;
+}
